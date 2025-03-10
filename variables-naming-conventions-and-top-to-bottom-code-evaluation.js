@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
 
-console.log(d);
+let customerName = "Alice";
+let itemsPurchased = 5;
+let totalPrice = 20;
+let checkoutTime = "2:00 pm"
+let cashierName = "Johnathan"
+let inventoryUpdate = customerName + " bought " + itemsPurchased + " items for $" + totalPrice + " at "+ checkoutTime + " and checked out with " + cashierName + "."
+console.log(inventoryUpdate)
